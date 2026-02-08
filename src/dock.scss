@@ -1,0 +1,59 @@
+.dock{
+    display: flex;
+    position: absolute;
+    bottom:1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(63, 63, 63, 0.395);
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    border-radius: 0.75rem;
+    backdrop-filter: blur(5px);
+    gap:0.5rem;
+
+    .icon{
+        width: 3.75rem;
+        padding: 0.65rem;
+        border-radius:0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .github,.cli{ 
+        background-color: black;
+    }
+
+    .note{
+        background: linear-gradient(to bottom ,rgb(216, 143, 6),rgb(255, 166, 0));
+    }
+
+    .pdf{
+        background:linear-gradient(to bottom ,rgb(255, 0, 0),rgb(249, 32, 32));
+    }
+    .calender,.mail{
+        background:linear-gradient(to bottom ,rgb(77, 63, 223),rgb(68, 13, 248));
+    }
+    .spotify{
+        background:linear-gradient(to bottom ,rgb(23, 78, 4),green);
+    }
+    .link{
+        background:linear-gradient(to bottom ,rgb(220, 84, 190),rgb(92, 38, 80));
+    }
+
+    .icon:hover{
+        transform: scale(1.25) translateY(-20%);
+    }
+
+    .icon:hover + .icon,
+    .icon:has(+ .icon:hover)
+    {
+        //the icon we want hover effect and its next icon 
+        transform: scale(1.1) translateY(-10%);
+
+    }
+    
+}
+
