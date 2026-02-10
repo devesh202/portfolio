@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with React and Vite showcasing projects, blog posts, and a responsive design.",
+    "tags": ["react", "vite", "scss", "responsive"],
+    "repoLink": "https://github.com/username/portfolio",
+    "demolink": "https://username.github.io/portfolio/"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200",
+    "title": "Todo App",
+    "description": "A lightweight todo application with localStorage persistence, filters, and drag-and-drop reordering.",
+    "tags": ["javascript", "react", "localStorage", "drag-and-drop"],
+    "repoLink": "https://github.com/username/todo-app",
+    "demolink": "https://todo.example.com/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200",
+    "title": "Realtime Chat",
+    "description": "A realtime chat app using WebSockets with user rooms, typing indicators, and message history.",
+    "tags": ["node", "websockets", "express", "socket.io"],
+    "repoLink": "https://github.com/username/realtime-chat",
+    "demolink": "https://chat.example.com/"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=1200",
+    "title": "E-commerce Store",
+    "description": "A sample e-commerce storefront with product listings, cart, checkout flow, and Stripe integration.",
+    "tags": ["react", "stripe", "commerce", "api"],
+    "repoLink": "https://github.com/username/ecommerce-store",
+    "demolink": "https://store.example.com/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+    "title": "Data Visualizer",
+    "description": "Interactive charts and dashboards built with D3 and Recharts for visualizing large datasets.",
+    "tags": ["d3", "charts", "visualization", "react"],
+    "repoLink": "https://github.com/username/data-visualizer",
+    "demolink": "https://viz.example.com/"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+    "title": "UI Component Library",
+    "description": "A reusable UI component library with theming, accessible primitives, and Storybook documentation.",
+    "tags": ["library", "storybook", "accessibility", "components"],
+    "repoLink": "https://github.com/username/ui-library",
+    "demolink": null
+  }
+]
