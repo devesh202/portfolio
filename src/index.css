@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-300 bg-transparent transition-colors duration-300;
+  }
+
+  html.light body {
+    @apply text-slate-800 bg-slate-50;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-bold tracking-tight transition-colors duration-300;
+  }
+
+  html.light h1, 
+  html.light h2, 
+  html.light h3, 
+  html.light h4, 
+  html.light h5, 
+  html.light h6 {
+    @apply text-slate-900;
+  }
+
+  html.light .bg-dark-800,
+  html.light .bg-dark-800\/50,
+  html.light .bg-dark-900,
+  html.light .bg-dark-900\/50,
+  html.light .bg-dark-900\/90,
+  html.light .bg-dark-950,
+  html.light .bg-dark-950\/80,
+  html.light .bg-dark-950\/95 {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+    color: #0f172a !important;
+  }
+
+  html.light .border-dark-700,
+  html.light .border-dark-700\/50,
+  html.light .border-dark-700\/60,
+  html.light .border-dark-700\/80,
+  html.light .border-dark-800,
+  html.light .border-white\/10,
+  html.light .border-white\/15 {
+    border-color: rgba(226, 232, 240, 0.9) !important;
+  }
+
+  html.light .text-slate-300,
+  html.light .text-slate-400 {
+    color: #475569 !important;
+  }
+
+  html.light .text-slate-200 {
+    color: #1e293b !important;
+  }
+
+  html.light canvas {
+    opacity: 0.25;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+  .bg-glow {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.15);
+  }
+}
